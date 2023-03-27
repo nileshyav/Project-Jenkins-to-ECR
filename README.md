@@ -20,4 +20,4 @@ Make sure docker is installed in your mechine , then cd into project root folder
 run above command in terminal. 
 
 
-add AS builder after From node:18
+add AS builder after From node:18     #Imp for when using docker compose
