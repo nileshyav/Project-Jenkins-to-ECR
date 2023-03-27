@@ -20,4 +20,4 @@ Make sure docker is installed in your mechine , then cd into project root folder
 run above command in terminal. 
 
 
-add AS builder after From node:latest
+add AS builder after From node:18
