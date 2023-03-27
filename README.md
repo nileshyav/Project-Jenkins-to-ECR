@@ -18,3 +18,6 @@ If you want to run this project on your local system , you have two ways :
 Make sure docker is installed in your mechine , then cd into project root folder where compose.yaml located.
 ## `docker-compose up` 
 run above command in terminal. 
+
+
+add AS builder after From node:latest
