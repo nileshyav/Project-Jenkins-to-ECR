@@ -5,7 +5,7 @@ pipeline {
     stages{
         stage("Clone"){
             steps{
-                git 'https://github.com/nileshyav/simple-express-app.git'
+                git 'https://github.com/nileshyav/Project-Jenkins-to-ECR.git'
                 
             }
         }
