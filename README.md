@@ -21,3 +21,5 @@ run above command in terminal.
 
 
 add AS builder after From node:18     #Imp for when using docker compose
+
+https://plugins.jenkins.io/amazon-ecr/  
