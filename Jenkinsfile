@@ -20,7 +20,7 @@ pipeline {
         stage("Push to Ecr"){
             steps{
                 script{
-                    docker.withRegistry("https://315761860206.dkr.ecr.us-east-1.amazonaws.com", "ecr:us-east-1:jenkins-test") {
+                    docker.withRegistry("https://315761860206.dkr.ecr.us-east-1.amazonaws.com", "ecr:us-east-1:aws-auth") {
                     app.push("${env.BUILD_NUMBER}")
                     app.push("latest")
 }
