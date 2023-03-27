@@ -29,7 +29,7 @@ app.get("/api/v1/instagram", (req, res) => {
 app.get("/api/v1/facebook", (req, res) => {
     const fbData = {
         userName: "Nilesh-facebook",
-        follewers: 40,
+        follewers: 30,
         follows : 48,
 
     }
